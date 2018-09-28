@@ -46,10 +46,11 @@ input{
 	flex-direction: column;
 }
 .task{
-	width:100%;
+	align-self: center;
+	width:80%;
 	height: 2rem;
 	text-align: center; 
 	color: #ADE1E5;
-	border: .2rem solid black;
+	border: .2rem solid grey;
 	border-radius: 12px;
 }

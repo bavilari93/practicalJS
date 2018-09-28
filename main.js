@@ -16,17 +16,19 @@ $(() => {
     	result.style.display = 'flex';
         toDo.push(input.value);
 
-        // render content iteration
-        toDo.map((e)=>{
+/i have problem that duplicates the values in the array /
         	let container = document.createElement('div');
         	container.setAttribute('class', 'task');
         	console.log(container);
-        	let text = document.createElement('p').innerHTML= e;
+        	let text = document.createElement('p').innerHTML= input.value;
         	result.append(container);
         	container.append(text);
 
         	console.log(toDo);
-        })
+
+        // toDo.map((e)=>{
+        	
+        // })
 
         
     }
