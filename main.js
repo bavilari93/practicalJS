@@ -18,10 +18,14 @@ $(() => {
 
         // render content iteration
         toDo.map((e)=>{
-        	let toDo = $(`<div class="task"><h1>${e}</h1></div>`);
-        	result.append(toDo)
+        	let container = document.createElement('div');
+        	container.setAttribute('class', 'task');
+        	console.log(container);
+        	let text = document.createElement('p').innerHTML= e;
+        	result.append(container);
+        	container.append(text);
 
-        	console.log(e);
+        	console.log(toDo);
         })
 
         
