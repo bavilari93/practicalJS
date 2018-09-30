@@ -58,35 +58,21 @@ input{
 	border-radius: 12px;
 	margin-top: 1rem;
 }
-.task h1{
-	width:90%;
+.task p{
+	font-size: .9rem;
+	width: 70%;
+	text-align: center;
+
 }
 /*delete button*/
 .delete{
 	background:transparent;
 	border-radius: 100%; 
+	text-align: center;
+	font-size: 2rem;
 	height: 2rem;
 	width: 2rem;
-	margin-left:5.6rem;
-	margin-top: -1.2rem;
-}
-button.delete::before{
-	content: '';
-	position: absolute;
-	height: 1.5rem;
-	width: .2rem;
-	background-color: red;
-	transform: rotate(50deg);
-	margin-top: -.8rem;
-}
-
-button.delete::after{
-	content: '';
-	position: absolute;
-	height: 1.5rem;
-	width: .2rem;
-	background-color: red;
-    transform: rotate(-50deg);
-    	margin-top: -.8rem;
-
+	align-self: right;
+/*	margin-left:5.6rem;*/
+	margin-top: -.5rem;
 }
